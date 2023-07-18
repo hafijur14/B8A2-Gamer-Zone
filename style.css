@@ -60,3 +60,33 @@
     padding: 18px;
     border-radius: 5px;
 }
+
+/* for phone  */
+@media screen and (max-width: 576px)
+{
+     .nav-container,.nav-items-container{
+        flex-direction: column;
+    } 
+    .nav-items-container{
+        margin: 0 auto;
+    }
+   
+}
+/* for tablet */ 
+@media screen and (min-width:576px) and (max-width: 960px)
+{
+    .logo-container,.nav-items-container {
+
+        gap: 10px;
+    }
+    .logo-container img{
+        margin-left: 14px;
+    }
+    .nav-items-container a{ 
+        font-size: 1rem;
+
+    }
+    .nav-items-container{
+        gap:15px;
+    }
+}
