@@ -10,7 +10,7 @@
     max-width: 1900px;
     height: 100px;
     background: #FFF;
-box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
 
 .logo-container {
@@ -45,7 +45,7 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 
     align-items: center;
     gap: 40px;
- 
+
 
 }
 
@@ -69,22 +69,23 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     display: flex;
     align-items: center;
     gap: 100px;
-   
+
 }
 
 .banner-content {
 
-   
-   
+
+
     padding: 40px;
-   
+
 
 
 }
-.bannerimage{
+
+.bannerimage {
     width: 600px;
     height: 600px;
-   
+
 }
 
 
@@ -94,7 +95,7 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     font-size: 3rem;
     font-weight: 600;
     text-transform: uppercase;
-  
+
 
 
 }
@@ -106,7 +107,7 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     -webkit-text-fill-color: transparent;
     font-size: 5.9rem;
     font-weight: 800;
-   
+
 }
 
 .banner-section p {
@@ -115,7 +116,7 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     font-weight: 500;
     line-height: normal;
     text-transform: lowercase;
-   
+
 }
 
 .primary-btn {
@@ -128,7 +129,7 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     padding: 21px 40px;
     border: none;
     margin-right: 10px;
-    
+
 }
 
 .rogue-btn {
@@ -136,62 +137,226 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     background: #4EC5F7;
     padding: 21px 40px;
     color: #FFF;
-  
+
     font-size: 20px;
     font-weight: 600;
     text-transform: uppercase;
     border: none;
- 
+
 }
 
+/* game section */
 
 
+.game-branches {
+    text-align: center;
+}
+
+.game-flex {
+    display: flex;
+    gap: 12px;
+    padding-left: 80px;
+    margin-bottom: 30px;
+}
+
+.game-img {
+    width: 280px;
+    height: 280px;
+}
+
+.game-descriptions {
+    width: 280px;
+    color: #534C64;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+
+
+}
+
+.game-title {
+    color: #0B0223;
+
+
+    font-size: 3rem;
+
+    font-weight: 700;
+
+}
+
+.g-color {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+}
+
+.game-description1 {
+    color: #534C64;
+    text-align: center;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+
+
+}
+
+/* play section */
+
+.play {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.play-title {
+    color: #0B0223;
+    margin: -190px;
+
+    font-size: 2.5rem;
+    text-align: center;
+
+    font-weight: 700;
+}
+
+.play-span-title {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.play-description {
+    color: #534C64;
+
+    font-size: 1.1rem;
+
+    font-weight: 400;
+    line-height: 30px;
+    margin: 190px;
+}
+
+.play-images {
+    margin-right: 50px;
+}
+
+.play-img1 {
+    width: 500.833px;
+    height: 500px;
+}
+
+.play-img2 {
+    width: 318.5px;
+    height: 320.083px;
+    position: relative;
+    top: -220px;
+    right: 180px
+}
+
+/* action play */
+
+
+.action-image {
+
+    border-radius: 50px;
+}
+
+.flex1 {
+    display: flex;
+    gap: 20px;
+
+    padding-left: 20px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.flex2 {
+    display: flex;
+    gap: 30px;
+
+    padding-left: 100px;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+
+
+}
+
+.flexdiv {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 240px;
+    height: 80px;
+
+}
+
+.flexdiv p {
+    color: #0B0223;
+
+    font-size: 1.2rem;
+
+    font-weight: 600;
+
+}
 
 
 /* for phone  */
 @media screen and (max-width: 576px) {
 
-    .nav-container,.nav-items-container,.banner-section{
+    .nav-container,
+    .nav-items-container,
+    .banner-section,
+    .game-flex {
         flex-direction: column;
-       
+
     }
-    .nav-items-container{
+
+    .nav-items-container {
         margin: 0 auto;
 
     }
-    .banner-section{
-     margin-top: 220px;
-     gap:40px;
-    
-   
+
+    .banner-section {
+        margin-top: 220px;
+        gap: 40px;
+
+
     }
-    .bannerimage
-    {
-       width: 350px;
-       height: 350px;
-       
+
+    .bannerimage {
+        width: 350px;
+        height: 350px;
+
     }
-    .bannertitle1{
+
+    .bannertitle1 {
         font-size: 2rem;
     }
-    .bannertitle2{
+
+    .bannertitle2 {
         font-size: 4rem;
     }
-    .banner-section p{
-        font-size: 1rem ;
+
+    .banner-section p {
+        font-size: 1rem;
         margin-left: 50px;
     }
+
     .primary-btn {
         padding: 20px 20px;
-        
+
         margin-left: 30px;
-        
+
     }
-    .rogue-btn{
+
+    .rogue-btn {
         padding: 20px 20px;
-    
+
     }
-    .banner-content{
+
+    .banner-content {
         padding: 30px;
     }
 }
@@ -217,9 +382,10 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     .nav-items-container {
         gap: 15px;
     }
-    .banner-section{
+
+    .banner-section {
         margin-top: 20px;
     }
-    
-    
+
+
 }
