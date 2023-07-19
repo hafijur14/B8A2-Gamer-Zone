@@ -7,12 +7,10 @@
 /* navbar */
 .nav-container {
     display: flex;
-    /* align-items: center; */
+    max-width: 1900px;
+    height: 100px;
     background: #FFF;
-    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
-    max-width: 1920px;
-    max-height: 100px;
-
+box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
 
 .logo-container {
@@ -46,7 +44,8 @@
     display: flex;
 
     align-items: center;
-    gap: 32px;
+    gap: 40px;
+ 
 
 }
 
@@ -66,27 +65,28 @@
 /* banner section */
 
 .banner-section {
+
     display: flex;
-
-    background: #FFF;
-
-
+    align-items: center;
+    gap: 100px;
+   
 }
 
 .banner-content {
 
-
-    margin: 0 auto;
+   
+   
     padding: 40px;
+   
 
 
 }
-
-.bannerimage {
-    width: 800px;
-    height: 700px;
-
+.bannerimage{
+    width: 600px;
+    height: 600px;
+   
 }
+
 
 .bannertitle1 {
     color: #0B0223;
@@ -94,6 +94,7 @@
     font-size: 3rem;
     font-weight: 600;
     text-transform: uppercase;
+  
 
 
 }
@@ -103,16 +104,18 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 95px;
+    font-size: 5.9rem;
     font-weight: 800;
+   
 }
 
 .banner-section p {
     color: #534C64;
-    font-size: 20px;
+    font-size: 1.4rem;
     font-weight: 500;
     line-height: normal;
     text-transform: lowercase;
+   
 }
 
 .primary-btn {
@@ -125,6 +128,7 @@
     padding: 21px 40px;
     border: none;
     margin-right: 10px;
+    
 }
 
 .rogue-btn {
@@ -132,11 +136,12 @@
     background: #4EC5F7;
     padding: 21px 40px;
     color: #FFF;
-    font-family: Work Sans;
+  
     font-size: 20px;
     font-weight: 600;
     text-transform: uppercase;
     border: none;
+ 
 }
 
 
@@ -146,15 +151,49 @@
 /* for phone  */
 @media screen and (max-width: 576px) {
 
-    .nav-container,
-    .nav-items-container {
+    .nav-container,.nav-items-container,.banner-section{
         flex-direction: column;
+       
     }
-
-    .nav-items-container {
+    .nav-items-container{
         margin: 0 auto;
-    }
 
+    }
+    .banner-section{
+     margin-top: 220px;
+     gap:40px;
+    
+   
+    }
+    .bannerimage
+    {
+       width: 350px;
+       height: 350px;
+       
+    }
+    .bannertitle1{
+        font-size: 2rem;
+    }
+    .bannertitle2{
+        font-size: 4rem;
+    }
+    .banner-section p{
+        font-size: 1rem ;
+        margin-left: 50px;
+    }
+    .primary-btn {
+        padding: 20px 20px;
+        
+        margin-left: 30px;
+        
+    }
+    .rogue-btn{
+        padding: 20px 20px;
+    
+    }
+    .banner-content{
+        padding: 30px;
+    }
 }
 
 /* for tablet */
@@ -178,4 +217,9 @@
     .nav-items-container {
         gap: 15px;
     }
+    .banner-section{
+        margin-top: 20px;
+    }
+    
+    
 }
