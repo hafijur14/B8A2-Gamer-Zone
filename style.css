@@ -301,6 +301,74 @@
 
 }
 
+/* footer */
+.footer {
+    background-color:#0B0223;
+    height: 500px;
+   
+
+}
+
+.footheader {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+   
+}
+
+.footheader h1 {
+    color: #FF42A5;
+    font-size: 2.8rem;
+    font-weight: 700;
+
+}
+
+.footheader-color {
+    color: #FFF;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+.footbody{
+    display: flex;
+    gap:30px;
+    align-items: center;
+    justify-content: center;
+}
+.footbody p{
+    color: #FFF;
+text-align: center;
+
+font-size: 1rem;
+
+font-weight: 600;
+
+}
+.social{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    margin-top: 30px;
+}
+.footdescription
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+
+}
+.footdescription{
+    color: rgba(255, 255, 255, 0.60);
+text-align: center;
+font-size: 1rem;
+font-weight: 500;
+
+}
+
 
 /* for phone  */
 @media screen and (max-width: 576px) {
